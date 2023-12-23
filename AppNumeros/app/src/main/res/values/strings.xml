@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AppNumeros</string>
+    <string name="type_any_number">digite um número</string>
+    <string name="add">Inserir</string>
+    <string name="organize">Ordenar</string>
+    <string name="save">Salvar</string>
+    <string name="sort">Ordenar</string>
+    <string name="save_text">Salvar</string>
 </resources>
