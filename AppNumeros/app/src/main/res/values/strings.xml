@@ -7,4 +7,6 @@
     <string name="sort">Ordenar</string>
     <string name="save_text">Salvar</string>
     <string name="added_successfully">Adcionado com sucesso!</string>
+    <string name="cant_save">Nenhum número adicionado!</string>
+    <string name="type_valid_number">Digite um número não vazio!</string>
 </resources>
