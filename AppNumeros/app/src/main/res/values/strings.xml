@@ -9,4 +9,6 @@
     <string name="added_successfully">Adcionado com sucesso!</string>
     <string name="cant_save">Nenhum número adicionado!</string>
     <string name="type_valid_number">Digite um número não vazio!</string>
+    <string name="failed_to_save">Falha ao salvar ou ação cancelada!</string>
+    <string name="list_is_null">Não é possível salvar pois a lista está vazia!</string>
 </resources>

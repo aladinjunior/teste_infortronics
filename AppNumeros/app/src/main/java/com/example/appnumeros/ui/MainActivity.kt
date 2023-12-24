@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         _binding = ActivityMainBinding.inflate(layoutInflater)
-        mainController = MainController(this)
+        mainController = MainController(this, this)
         setContentView(_binding.root)
 
 
@@ -47,6 +47,14 @@ class MainActivity : AppCompatActivity() {
                 else
                     binding.tvResult.text = mainController.listToString()
 
+            }
+
+            save.setOnClickListener {
+                if (mainController.list.isEmpty()){
+                    Toast.makeText(this@MainActivity, getString(R.string.list_is_null), Toast.LENGTH_SHORT).show()
+                } else {
+                    mainController.createDocument()
+                }
             }
 
         }
