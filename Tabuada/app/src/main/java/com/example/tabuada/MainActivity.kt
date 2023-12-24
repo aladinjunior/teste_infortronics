@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         with(binding){
 
             button.setOnClickListener {
-                if(inputtedNumber.text.toString().isBlank() or inputtedNumber.text.toString().isEmpty()){
+                if(inputtedNumber.text.toString() == ""){
                     Toast.makeText(this@MainActivity, getString(R.string.field_cant_be_null), Toast.LENGTH_SHORT).show()
                 } else {
                     val num = inputtedNumber.text.toString().toInt()
