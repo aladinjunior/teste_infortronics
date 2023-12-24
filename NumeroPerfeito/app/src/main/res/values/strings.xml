@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">NumeroPerfeito</string>
     <string name="check">Verificar</string>
+    <string name="is_perfect">Número Perfeito!</string>
+    <string name="is_not_perfect">O número não é perfeito!</string>
+    <string name="field_cant_be_null">O campo não pode ser vazio!</string>
 </resources>
