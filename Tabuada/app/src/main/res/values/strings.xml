@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Tabuada</string>
     <string name="calculate">Calcular</string>
+    <string name="field_cant_be_null">Preencha um valor.</string>
 </resources>
