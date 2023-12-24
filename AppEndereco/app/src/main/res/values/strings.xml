@@ -2,4 +2,5 @@
     <string name="app_name">AppEndereco</string>
     <string name="type_cep">Digite o CEP</string>
     <string name="search">Procurar</string>
+    <string name="type_your_cep">Insira seu cep no campo acima para visualizar o endereço.</string>
 </resources>

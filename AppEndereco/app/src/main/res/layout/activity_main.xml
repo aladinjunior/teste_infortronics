@@ -27,36 +27,36 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/neighborhood"
+                android:id="@+id/city"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:text="hello, world!"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="70dp"
+                android:layout_marginStart="20dp"
                 />
 
             <TextView
-                android:id="@+id/city"
+                android:id="@+id/street"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="70dp"
-                android:textColor="@color/white"
-                tools:text="hello, world!"
-                android:layout_below="@id/neighborhood"
-                android:textSize="14sp"/>
-
-            <TextView
-                android:id="@+id/complement"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="70dp"
+                android:layout_marginStart="20dp"
                 android:textColor="@color/white"
                 tools:text="hello, world!"
                 android:layout_below="@id/city"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/neighborhood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/white"
+                tools:text="hello, world!"
+                android:layout_below="@id/street"
                 android:textSize="14sp"/>
 
 
@@ -78,9 +78,40 @@
             style="@style/Theme.AppEndereco.EditTextStyle"
             android:hint="@string/type_cep"
             android:textColorHint="@color/white"
-            android:inputType="textEmailAddress" />
+            android:inputType="number"
+            android:maxLength="8"
+            />
 
     </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/appname"
+        android:text="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:text="@string/type_your_cep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:layout_marginTop="2dp"
+        android:alpha="0.8"
+        app:layout_constraintTop_toBottomOf="@id/appname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <Button
         android:id="@+id/button"
