@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AppEndereco</string>
+    <string name="type_cep">Digite o CEP</string>
+    <string name="search">Procurar</string>
 </resources>
