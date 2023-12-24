@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NumeroPerfeito</string>
+    <string name="check">Verificar</string>
 </resources>
